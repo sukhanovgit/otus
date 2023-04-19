@@ -14,9 +14,9 @@ The following packages were automatically installed and are no longer required:
   libfwupdplugin1 libxmlb1 linux-headers-5.4.0-65 linux-headers-5.4.0-65-generic linux-image-5.4.0-65-generic linux-modules-5.4.0-65-generic linux-modules-extra-5.4.0-65-generic
 Use 'sudo apt autoremove' to remove them.
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-root@alismongodb-test:~# echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+root@alismongodb-test:~ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse
-root@alismongodb-test:~# apt update
+root@alismongodb-test:~ apt update
 Get:1 http://repo.zabbix.com/zabbix/5.0/ubuntu focal InRelease [4,958 B]
 Ign:2 https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 InRelease
 Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
@@ -133,10 +133,10 @@ Setting up mongodb-org-database (6.0.5) ...
 Setting up mongodb-org-tools (6.0.5) ...
 Setting up mongodb-org (6.0.5) ...
 Processing triggers for man-db (2.9.1-1) ...
-root@alismongodb-test:~# ulimit -n 64000 && ulimit -u 64000 && ulimit -t unlimited && ulimit -v unlimited && ulimit -l unlimited && ulimit -m unlimited
-root@alismongodb-test:~# mongosh --port 27017
+root@alismongodb-test:~ ulimit -n 64000 && ulimit -u 64000 && ulimit -t unlimited && ulimit -v unlimited && ulimit -l unlimited && ulimit -m unlimited
+root@alismongodb-test:~ mongosh --port 27017
 Current Mongosh Log ID: 643fc2d64776a5e2d296d3db
-root@alismongodb-test:~# sudo systemctl start mongod
+root@alismongodb-test:~ sudo systemctl start mongod
 ![image](https://user-images.githubusercontent.com/102989024/233048364-ee533e62-c1bf-4d7e-8045-8cf0d9ce8b87.png)
 
 заполнить данными;
