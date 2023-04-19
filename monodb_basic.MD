@@ -1,9 +1,7 @@
 # Необходимо:
 
 ## установить MongoDB одним из способов: ВМ, докер;
-curl -fsSL https://pgp.mongodb.com/server-6.0.asc  
->    sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg 
->    --dearmor
+curl -fsSL https://pgp.mongodb.com/server-6.0.asc && sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg  --dearmor
 File '/usr/share/keyrings/mongodb-server-6.0.gpg' exists. Overwrite? (y/N) y
 root@alismongodb-test:~ sudo apt-get install gnupg
 Reading package lists... Done
