@@ -1,11 +1,11 @@
 # Необходимо:
 
 ## установить MongoDB одним из способов: ВМ, докер;
-curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
->    sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg \
+curl -fsSL https://pgp.mongodb.com/server-6.0.asc | 
+>    sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg 
 >    --dearmor
 File '/usr/share/keyrings/mongodb-server-6.0.gpg' exists. Overwrite? (y/N) y
-root@alismongodb-test:~# sudo apt-get install gnupg
+root@alismongodb-test:~ sudo apt-get install gnupg
 Reading package lists... Done
 Building dependency tree
 Reading state information... Done
@@ -14,7 +14,7 @@ The following packages were automatically installed and are no longer required:
   libfwupdplugin1 libxmlb1 linux-headers-5.4.0-65 linux-headers-5.4.0-65-generic linux-image-5.4.0-65-generic linux-modules-5.4.0-65-generic linux-modules-extra-5.4.0-65-generic
 Use 'sudo apt autoremove' to remove them.
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-root@alismongodb-test:~ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+root@alismongodb-test: echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse
 root@alismongodb-test:~ apt update
 Get:1 http://repo.zabbix.com/zabbix/5.0/ubuntu focal InRelease [4,958 B]
@@ -63,7 +63,7 @@ Reading package lists... Done
 Building dependency tree
 Reading state information... Done
 98 packages can be upgraded. Run 'apt list --upgradable' to see them.
-root@alismongodb-test:~# apt-get install -y mongodb-org
+root@alismongodb-test:~ apt-get install -y mongodb-org
 Reading package lists... Done
 Building dependency tree
 Reading state information... Done
