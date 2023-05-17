@@ -1,5 +1,6 @@
-## 1) после установки монго создал директории и запустил configsrv 
+## 1) после установки монго создал директории и запустил configsrv,  2 репликасета(RS1 RS2) shardsrv и 2 mongos
 ![image](https://user-images.githubusercontent.com/102989024/235094298-177a6b7a-cc61-4725-bac4-ced41e02068e.png)
+![image](https://github.com/sukhanovgit/otus/assets/102989024/1a5e536a-0736-4cec-b629-b53af79ca3f5)
 
 ## 2) собрал Кластер и включил Шардирование
 ![image](https://github.com/sukhanovgit/otus/assets/102989024/35a9b4a6-0c54-4768-a5aa-5a531dd4b21c)
