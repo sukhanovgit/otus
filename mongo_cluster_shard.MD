@@ -9,4 +9,13 @@
 ![image](https://github.com/sukhanovgit/otus/assets/102989024/a590a405-1f6c-4c02-a33f-d3a5dfec56fa)
 ## 4) проверяю командой sh.status что данные распределились между шардами
 ![image](https://github.com/sukhanovgit/otus/assets/102989024/e70008ec-0bf1-4a65-89e7-54fad46835d2)
+## 5) роняем процессы и проверяем доступность
+![image](https://github.com/sukhanovgit/otus/assets/102989024/3f38a7e6-4b13-4f1e-8817-ad63029f6170)
+![image](https://github.com/sukhanovgit/otus/assets/102989024/cacc2c86-b6da-4f80-8ca8-313e16547f24)
+
+## 6) поднимаем новый процесс и добавляем пользователя с паролем
+![image](https://github.com/sukhanovgit/otus/assets/102989024/1c9e4b99-9cc6-47f9-a9c0-d354cefd340a)
+## 7) авторизуемся 
+![image](https://github.com/sukhanovgit/otus/assets/102989024/281b927f-6550-49e0-bcde-0463e47c7b9c)
+
 
