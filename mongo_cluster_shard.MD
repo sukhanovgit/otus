@@ -7,3 +7,6 @@
 ## 3) Нагрузил данными, добавил индекс и сделал по нему шардирование
 ![image](https://github.com/sukhanovgit/otus/assets/102989024/c6bc0779-1f32-4f87-8fd1-137ca043af49)
 ![image](https://github.com/sukhanovgit/otus/assets/102989024/a590a405-1f6c-4c02-a33f-d3a5dfec56fa)
+## 4) проверяю командой sh.status что данные распределились между шардами
+![image](https://github.com/sukhanovgit/otus/assets/102989024/e70008ec-0bf1-4a65-89e7-54fad46835d2)
+
