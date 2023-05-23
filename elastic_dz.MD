@@ -5,4 +5,3 @@
 
 ## 2) 
 
-https://api.postman.com/collections/24991351-44609628-84ec-43fd-bea5-c79ae5bd8675?access_key=PMAT-01H13C8XZ8G6AY93FMS61P66HM
