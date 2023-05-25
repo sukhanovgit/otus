@@ -14,8 +14,13 @@
 
 ## 4) Полнотекстовый запрос
 ![image](https://github.com/sukhanovgit/otus/assets/102989024/8f26002f-79df-482c-8884-4751405cbfed)
-### поиск #### мама ела сосиски
+### поиск "мама ела сосиски"
 ![image](https://github.com/sukhanovgit/otus/assets/102989024/b1b7ad92-63cd-4b92-8c61-64dcd1031ae6)
+
+### 5) Создание pattern 
+Так как в версии 8.7 pattern переименованы в data view https://www.elastic.co/guide/en/kibana/8.7/index-patterns.html 
+Создал data view на индекс otus-d*
+![image](https://github.com/sukhanovgit/otus/assets/102989024/b7fffc90-82ba-40c5-b18f-87a2cb7241f7)
 
 
  
