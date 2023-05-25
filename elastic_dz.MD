@@ -9,9 +9,13 @@
 
 ## 3) Добавил документы
 ![image](https://github.com/sukhanovgit/otus/assets/102989024/60bc63eb-9a62-4e74-ad35-0762909ae56f)
-## проверяем, что документы добавлены
+### проверяем, что документы добавлены
 ![image](https://github.com/sukhanovgit/otus/assets/102989024/8b35f770-335d-49b0-bc7f-14e104e073fd)
 
 ## 4) Полнотекстовый запрос
-![image](https://github.com/sukhanovgit/otus/assets/102989024/88077d43-d728-49b0-a8dc-08cfd1d813ab)
+![image](https://github.com/sukhanovgit/otus/assets/102989024/8f26002f-79df-482c-8884-4751405cbfed)
+### поиск #### мама ела сосиски
+![image](https://github.com/sukhanovgit/otus/assets/102989024/b1b7ad92-63cd-4b92-8c61-64dcd1031ae6)
+
+
  
